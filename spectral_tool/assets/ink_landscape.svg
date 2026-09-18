@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" fill="none">
+  <defs>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+    <filter id="mistBlur" x="-20%" y="-20%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+    <linearGradient id="fadeDown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.26" />
+      <stop offset="55%" stop-color="#000000" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1800" height="900" fill="#f7f5f0" />
+
+  <path
+    d="M110 620C180 602 235 553 314 547C378 542 441 486 527 480C611 474 655 420 733 414C825 407 881 338 959 336C1079 333 1128 414 1206 431C1318 456 1384 418 1493 430C1601 441 1687 520 1749 520L1792 625L110 620Z"
+    fill="url(#fadeDown)"
+    filter="url(#softBlur)"
+  />
+
+  <path
+    d="M145 614C216 599 289 574 364 560C470 540 566 494 689 474C787 458 862 376 953 374C1067 371 1123 448 1204 466C1316 491 1404 451 1506 470C1617 491 1696 563 1762 560L1790 622L145 614Z"
+    fill="#101010"
+    fill-opacity="0.24"
+  />
+
+  <path
+    d="M130 640C223 653 314 623 413 642C520 662 626 660 732 648C831 637 918 676 1014 658C1112 639 1205 666 1310 646C1407 628 1516 650 1622 638C1701 628 1749 635 1788 647"
+    stroke="#000000"
+    stroke-opacity="0.10"
+    stroke-width="18"
+    stroke-linecap="round"
+    filter="url(#mistBlur)"
+  />
+
+  <path
+    d="M259 610C247 655 245 717 270 760"
+    stroke="#000000"
+    stroke-opacity="0.09"
+    stroke-width="14"
+    stroke-linecap="round"
+    filter="url(#mistBlur)"
+  />
+  <path
+    d="M988 607C980 655 980 716 996 760"
+    stroke="#000000"
+    stroke-opacity="0.08"
+    stroke-width="12"
+    stroke-linecap="round"
+    filter="url(#mistBlur)"
+  />
+  <path
+    d="M1506 573C1514 626 1518 702 1510 775"
+    stroke="#000000"
+    stroke-opacity="0.08"
+    stroke-width="12"
+    stroke-linecap="round"
+    filter="url(#mistBlur)"
+  />
+
+  <rect x="1713" y="51" width="44" height="44" rx="2" fill="#faf7f3" stroke="#b31d18" stroke-width="3"/>
+  <text x="1735" y="84" text-anchor="middle" font-size="28" font-family="KaiTi, STKaiti, serif" fill="#b31d18">禅</text>
+</svg>
